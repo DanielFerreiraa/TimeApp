@@ -12,6 +12,7 @@ public class MainActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		var i = 1;
+		var a = 2;
 	}
 
 	@Override
