@@ -11,8 +11,7 @@ public class MainActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		var i = 1;
-		var a = 2;
+		
 	}
 
 	@Override
@@ -30,6 +29,7 @@ public class MainActivity extends ActionBarActivity {
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
 			return true;
+			var a = 1;
 		}
 		return super.onOptionsItemSelected(item);
 	}
